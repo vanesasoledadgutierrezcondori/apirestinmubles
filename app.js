@@ -7,6 +7,11 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+app.use('/api/v1.0/', ven1);
+app.use('/api/v1.0/', esc1);
+app.use('/api/v1.0/', barr1);
+app.use('/api/v1.0/', cas1);
+
 var app = express();
 
 // view engine setup
